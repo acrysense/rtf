@@ -442,7 +442,7 @@
 									<h4 class="programs-card__subtitle">Модератор</h4>
 									<div class="programs-card__speakers">
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Кирилл Родин</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Кирилл Родин</a>
 											<span class="programs-card__help">Директор по работе с органами государственной власти, Всероссийский центр изучения общественного мнения; эксперт в области социально-политических исследований, информационной политики, коммуникационных технологий и интернет-исследований</span>
 										</div>
 									</div>
@@ -493,7 +493,7 @@
 									<h4 class="programs-card__subtitle">Модератор</h4>
 									<div class="programs-card__speakers">
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Кирилл Родин</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Кирилл Родин</a>
 											<span class="programs-card__help">Директор по работе с органами государственной власти, Всероссийский центр изучения общественного мнения; эксперт в области социально-политических исследований, информационной политики, коммуникационных технологий и интернет-исследований</span>
 										</div>
 									</div>
@@ -538,7 +538,7 @@
 									<h4 class="programs-card__subtitle">Модератор</h4>
 									<div class="programs-card__speakers">
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Кирилл Родин</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Кирилл Родин</a>
 											<span class="programs-card__help">Директор по работе с органами государственной власти, Всероссийский центр изучения общественного мнения; эксперт в области социально-политических исследований, информационной политики, коммуникационных технологий и интернет-исследований</span>
 										</div>
 									</div>
@@ -606,7 +606,7 @@
 									<h4 class="programs-card__subtitle">Модератор</h4>
 									<div class="programs-card__speakers">
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Кирилл Родин</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Кирилл Родин</a>
 											<span class="programs-card__help">Директор по работе с органами государственной власти, Всероссийский центр изучения общественного мнения; эксперт в области социально-политических исследований, информационной политики, коммуникационных технологий и интернет-исследований</span>
 										</div>
 									</div>
@@ -651,7 +651,7 @@
 									<h4 class="programs-card__subtitle">Модератор</h4>
 									<div class="programs-card__speakers">
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Кирилл Родин</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Кирилл Родин</a>
 											<span class="programs-card__help">Директор по работе с органами государственной власти, Всероссийский центр изучения общественного мнения; эксперт в области социально-политических исследований, информационной политики, коммуникационных технологий и интернет-исследований</span>
 										</div>
 									</div>
@@ -719,19 +719,19 @@
 									<h4 class="programs-card__subtitle">Спикеры</h4>
 									<div class="programs-card__speakers">
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Дмитрий Вахруков</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Дмитрий Вахруков</a>
 											<span class="programs-card__help">Заместитель Министра экономического развития Российской Федерации</span>
 										</div>
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Владимир Затынайко</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Владимир Затынайко</a>
 											<span class="programs-card__help">Заместитель директора, Фонд «Росконгресс»</span>
 										</div>
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Тимур Зельдич</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Тимур Зельдич</a>
 											<span class="programs-card__help">Председатель, Комитет по развитию туризма Санкт-Петербурга</span>
 										</div>
 										<div class="programs-card__speaker">
-											<a href="#" class="programs-card__name">Тимур Зельдич</a>
+											<a href="#" class="programs-card__name modal-btn" data-id="modal-speaker">Тимур Зельдич</a>
 											<span class="programs-card__help">Председатель, Комитет по развитию туризма Санкт-Петербурга</span>
 										</div>
 									</div>
@@ -1070,6 +1070,40 @@
 		</div>
 	</div>
 	<!-- end of menu -->
+	<!-- modals -->
+	<div class="modal" id="modal-speaker">
+		<div class="modal__wrap">
+			<div class="modal__wrapper">
+				<div class="modal__content">
+					<button class="modal__close-btn modal__close">
+						<svg>
+							<use xlink:href="img/sprite.svg#icon-close"></use>
+						</svg>
+					</button>
+					<div class="speaker">
+						<div class="speaker__wrapper">
+							<div class="speaker__top">
+								<picture class="speaker__img">
+									<img src="img/speakers-01.jpg" alt="Image">
+								</picture>
+								<div class="speaker__block">
+									<h3 class="speaker__title">Кирилл Родин</h3>
+									<span class="speaker__help">Директор по работе с органами государственной власти, Всероссийский центр изучения общественного мнения (ВЦИОМ)</span>
+								</div>
+							</div>
+							<div class="speaker__body">
+								<div class="speaker__content content">
+									<p>Эксперт, имеющий многолетний опыт проведения социологических и маркетинговых исследований. Один из ведущих специалистов в области социально-политических исследований, информационной политики,коммуникационных технологий и интернет-исследований. Член 5 национальных и международных профессиональных, научных и экспертных обществ.</p>
+									<p>Кирилл Родин окончил Московский государственный университет им. М.В. Ломоносова по направлению методология и методика социологических исследований в 2002 году.После окончания университета продолжительное время работал на выборных кампаниях в органы государственной власти.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of modals -->
 	<!-- scripts -->
 	<script src="js/vendor.min.js"></script>
 	<script src="js/app.min.js"></script>
